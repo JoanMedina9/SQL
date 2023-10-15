@@ -28,15 +28,15 @@ VALUES
 //project answers//
 SELECT *
 FROM superstore 
-ORDER BY price desc
+ORDER BY price desc;
 
 SELECT SUM(price)
-FROM superstore 
+FROM superstore;
 
 SELECT SUM(price)
 FROM superstore
-WHERE category= 'Kitchen Supplies'
+WHERE category= 'Kitchen Supplies';
 
 SELECT item_name, stock_quantity
 FROM superstore
-WHERE item_name= 'Wireless Earbuds'
+WHERE item_name= 'Wireless Earbuds';
