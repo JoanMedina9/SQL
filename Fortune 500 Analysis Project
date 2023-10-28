@@ -89,4 +89,4 @@ SELECT company_name, MAX(revenue)
 FROM fortune_companies
 WHERE industry="Technology";
 
-# In this open ended project, I was able to look at this data set and create questions and answer them using SQL.
+# In this open ended project, I was able to look at this dataset and create questions and answer them using SQL.
